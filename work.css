@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: gray;
+}
+a{
+    text-decoration: none;
+     color: black;
+ }
+  a:hover{
+      background-color: orangered;
+      border-radius: 50%;
+      color: white;
+}
+
+main{
+    width: 100%;
+    height: 400px;
+    background: url(rasmlar/image\ \(1\).png) no-repeat center top/cover;
+    position: relative;
+}
+
+span{
+    color: orangered;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items:center ;
+    justify-content:space-evenly;
+   
+}
+.ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+.header-icon1,.header-icon2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.icon{
+    font-size: 30px;
+    color: orangered;
+}
+.text{
+    display: flex;
+}
+.main-text{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+.main-text h1{
+    font-size: 50px;
+}
+
+section{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.container{
+    width: 70%;
+    height: 150px; 
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    position: absolute;
+    bottom: 1px;
+}
+.card{
+    width: 170px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 3px;
+}
+.card i{
+    font-size: 40px;
+    color: orangered;
+   
+}
+
+.card:hover{
+   background-color:orangered;
+}
+.card:hover p{
+    color: white;
+}
+.card:hover i{
+     color: white;
+}
+
+.section1{
+    width: 100%;
+    height: 220vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.section3-container-images{
+    width: 70%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+.section3-container-images-card{
+    width: 300px;
+    height: 350px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.section3-container-images-card:hover img{
+   height: 220px;
+}  
+.section3-container-images-card:hover button{
+    display: block;
+}
+
+.section3-container-images-card img{
+    width: 100%;
+    height: 75%;
+}
+.section3-container-images-card button{
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    color: orangered;
+    border: 1.5px solid orangered;
+    border-radius: 4px;
+    display: none;
+}
+
+.section4{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+    background-color: #E5E8ED;
+}
+
+
+.section4-container{
+    width: 70%;
+    height: 350px;
+    display: flex;
+    gap: 20px;
+    
+}
+.section4-container-text{
+    width: 450px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section4-container-text h1{
+    font-size: 35px;
+}
+.ism{
+    justify-content: space-between;
+    display: flex;
+}
+.ism p{
+    font-size: 12px;
+    color: gray;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+   color: gray;
+   font-size: 20px;
+}
+.section4-container-text img{
+    width: 60px;
+    height: 60px;
+}
+.section4-container-img{
+    width: 400px;
+    height: 350px;
+}
+.section4-container-img img{
+    width: 100%;
+    height: 410px;
+    position: relative;
+    z-index: 1;
+}
+
+.section5{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.section5-img{
+    width: 70%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.section5-img img{
+   width: 100%;
+   height: 180px;
+}
+
+.section6{
+    width: 100%;
+    height: 600px;
+    background: url(rasmlar/image\ \(1\).jpg) no-repeat center top/cover;
+    position: relative;
+}
+
+form{
+    width: 380px;
+    height: 500px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right: 250px;
+    bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    color: #F4F5F6;
+}
+.checkbox{ 
+    width: 15px;
+    height: 15px;
+}
+form button{
+    width:160px;
+    height: 40px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    border-radius:5px;
+    margin-left: 80px;
+} 
+
+footer{
+    width: 100%;
+    height: 450px;
+    background-color: #1E212C;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.footer1{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    gap: 120px;
+}
+.boxs1{
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+.boxs1 p{
+    color: gray;
+}
+.boxs-CARD {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+   
+}
+.ICON{
+    display: flex;
+    gap: 10px;
+}
+.ICON i{
+    font-size: 20px;
+    color: gray;
+}
+
+.boxs2{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+}
+.boxs2 p{
+    color: gray;
+}
+.input-footer input{
+    width: 270px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #FFFFFF1F;
+    border: none;
+}
+.input-footer button{
+    width: 79px;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    
+}
+
+.footer2{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.boxs3{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boxs4{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.boxs3 p{
+    color: gray;
+}
+.boxs4 p{
+    color: gray;
+}

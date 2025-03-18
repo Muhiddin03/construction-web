@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    color: gray;
+}
+a{
+    text-decoration: none;
+     color: black;
+ }
+  a:hover{
+      background-color: orangered;
+      border-radius: 50%;
+      color: white;
+}
+
+main{
+    width: 100%;
+    height: 400px;
+    background: url(rasmlar/contact.png) no-repeat right/contain;
+    position: relative;
+    background-color: #F4F5F6;
+}
+
+span{
+    color: orangered;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items:center ;
+    justify-content:space-evenly;
+   
+}
+.ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+.header-icon1,.header-icon2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.icon{
+    font-size: 30px;
+    color: orangered;
+}
+.text{
+    display: flex;
+}
+.main-text{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+.main-text h1{
+    font-size: 50px;
+}
+
+.section1{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+}
+.container{
+    width: 70%;
+    height: 100%;
+    display:flex ;
+    flex-direction: column;
+
+}
+.card1{
+    width: 100%;
+    height: 150px;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    gap: 20px;
+}
+.card1 h1{
+    font-size: 30px;
+}
+
+.container2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.card2{
+    width: 400px;
+    height: 450px;
+}
+.card2 img{
+    width: 100%;
+    height: 100%;
+}
+.card3{
+    width: 480px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.card3-imput{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    
+}
+.imput1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 30px;
+}
+.imput1 input{
+    width: 200px;
+    height: 35px;
+    padding-left: 10px;
+}
+.imput1 select{
+    width: 200px;
+    height: 35px;
+    padding-left: 10px;
+}
+.card3-message{
+    width: 100%;
+    height: 200px;
+    padding-left: 30px;
+}
+
+.checbox{
+    display: flex;
+    width: 100%;
+    height: 50px;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+.checbox button{
+    width: 170px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.section2{
+    width: 100%;
+    height: 130vh;
+    background-color: #F4F5F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2-container{
+    width: 70%;
+    height: 70%;
+    
+}
+
+.section2-container-text{
+    width:100%;
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #F4F5F6;
+}
+.section2-container-text h1{
+     font-size: 35px;
+}
+
+.section2-container-cards{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards-card{
+    width: 250px;
+    height: 200px;
+   
+}
+.cards-card h1{
+    margin-bottom: 10px;
+}
+.cards-card p{
+    margin-bottom: 8px;
+}
+.pi{
+    color: orangered;
+    text-decoration: underline;
+}
+
+.section2-container-icon{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.section2-container-icon h1{
+    font-size: 30px;
+}
+.section2-container-icon i{
+    font-size: 30px;
+}
+.section2-container-icon i:hover{
+    color: orangered;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 450px;
+    background-color: #1E212C;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.footer1{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    gap: 120px;
+}
+.boxs1{
+    width: 450px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+.boxs1 p{
+    color: gray;
+}
+.boxs-CARD {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+   
+}
+.ICON{
+    display: flex;
+    gap: 10px;
+}
+.ICON i{
+    font-size: 20px;
+    color: gray;
+}
+
+.boxs2{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+}
+.boxs2 p{
+    color: gray;
+}
+.input-footer input{
+    width: 270px;
+    height: 30px;
+    padding-left: 10px;
+    background-color: #FFFFFF1F;
+    border: none;
+}
+.input-footer button{
+    width: 79px;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    
+}
+
+.footer2{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.boxs3{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.boxs4{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.boxs3 p{
+    color: gray;
+}
+.boxs4 p{
+    color: gray;
+}
